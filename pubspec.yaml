@@ -1,0 +1,31 @@
+name: mynotes
+description: A Flutter app for managing notes
+
+# Flutter version constraint.
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add the shared_preferences package for storing notes
+  shared_preferences: ^2.0.15
+
+  # Add intl package for date and time formatting
+  intl: ^0.18.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For importing assets like images (if any are needed)
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/download.png
+
